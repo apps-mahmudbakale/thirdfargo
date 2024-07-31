@@ -69,27 +69,12 @@
 <!-- header begin-->
 
 <body>
-    <!-- Start Preloader Area -->
-    <!-- <div class="preloader">
-        <div class="dl">
-            <div class="dl__container">
-                <div class="dl__corner--top"></div>
-                <div class="dl__corner--bottom"></div>
-            </div>
-            <div class="dl__square"></div>
-        </div>
-    </div> -->
-    <!-- End Preloader Area    https://newfagoremitb.com/  -->
-
-    <!-- Page Header -->
-     <!-- ##### Header Area Start ##### -->
- <!-- header-section start  -->
  <header class="header">
      <div class="header__bottom">
          <div class="container">
              <nav class="navbar navbar-expand-lg p-0 align-items-center justify-content-between">
-                 <a class="site-logo site-title" href="index.html">
-                     <img src="assets/images/logo_1649518140.png" alt="logo">
+                 <a class="site-logo site-title" href="/">
+                     <img src="assets/images/ThridFargoRemit.png" alt="logo">
                  </a>
                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="menu-toggle"></span>
@@ -120,7 +105,7 @@
 
                          </div>
 
-                         <a href="account/login.html" class="btn btn-sm py-2 btn-outline--gradient me-3">Sign In</a>
+                         <a href="{{route('login')}}" class="btn btn-sm py-2 btn-outline--gradient me-3">Sign In</a>
                          <a href="account/register.html" class="btn btn-sm py-2 custom--bg text-white">Sign Up</a>
 
                      </div>
@@ -1283,7 +1268,7 @@
          <div class="footer__bottom">
              <div class="row gy-4 align-items-center">
                  <div class="col-lg-3 col-sm-6 order-lg-1 order-1 text-sm-start text-center">
-                     <a href="index.html" class="footer-logo"><img src="assets/images/logo_1649518140.png" alt="logo"></a>
+                     <a href="/" class="footer-logo"><img src="assets/images/ThridFargoRemit.png" alt="logo"></a>
                  </div>
 
                  <div class="col-lg-9 col-sm-6 order-lg-3 order-2 text-sm-end text-center">
