@@ -120,8 +120,8 @@
 
                         </div>
 
-                        <a href="login.html" class="btn btn-sm py-2 btn-outline--gradient me-3">Sign In</a>
-                        <a href="register.html" class="btn btn-sm py-2 custom--bg text-white">Sign Up</a>
+                        <a href="{{route('login')}}" class="btn btn-sm py-2 btn-outline--gradient me-3">Sign In</a>
+                        <a href="{{route('register')}}" class="btn btn-sm py-2 custom--bg text-white">Sign Up</a>
 
                     </div>
                 </div>
@@ -163,7 +163,7 @@
                 <!-- Alert messages -->
                 <!-- // Alert messages -->
 
-                <form action="" class="user" method="post" accept-charset="utf-8">
+                <form action="{{route('doLogin')}}" class="user" method="post" accept-charset="utf-8">
                     @csrf
                     <div class="form-group">
                         <input type="text" name="email" class="form-control form-control-user" aria-describedby="emailHelp" placeholder="Enter Account Number/username/email...">
@@ -180,7 +180,7 @@
             <hr>
             <div class="text-center">
                 <a class="small btn btn-primary" href="forget_password.html">Forgot Password</a>
-                <a href="register.html" class="btn btn-sm py-2 btn-outline--gradient me-3">Sign Up</a>
+                <a href="{{route('register')}}" class="btn btn-sm py-2 btn-outline--gradient me-3">Sign Up</a>
             </div>
         </div>
 </div>
@@ -224,8 +224,8 @@
                 <div class="footer-widget">
                     <h3 class="footer-widget__title">Quick Links</h3>
                     <ul class="short-link-list">
-                        <li><a href="login.html">Login</a></li>
-                        <li><a href="register.html">Register</a></li>
+                        <li><a href="{{route('login')}}">Login</a></li>
+                        <li><a href="{{route('register')}}">Register</a></li>
                         <li><a href="../contact.html">Contact</a></li>
                     </ul>
                 </div>

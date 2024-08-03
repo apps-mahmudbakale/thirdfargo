@@ -83,22 +83,22 @@
                      <ul class="navbar-nav main-menu m-auto" id="linkItem">
                          <li><a class="active" href="index.html">Home</a></li>
                          <li>
-                             <a class="" href="about.html">
+                             <a class="" href="">
                                  About Us
                              </a>
                          </li>
                          <li>
-                             <a class="" href="services.html">
+                             <a class="" href="">
                                  Services
                              </a>
                          </li>
                          <li>
-                             <a class="" href="faq.html">
+                             <a class="" href="">
                                  FAQ
                              </a>
                          </li>
-                         <li><a class="" href="contact.html">Contact</a></li>
-                         <li><a class="" href="applications/form/loans.html">Loans</a></li>
+                         <li><a class="" href="">Contact</a></li>
+                         <li><a class="" href="">Loans</a></li>
                      </ul>
                      <div class="nav-right">
                          <div class=" me-3" id="google_translate_element">
@@ -106,7 +106,7 @@
                          </div>
 
                          <a href="{{route('login')}}" class="btn btn-sm py-2 btn-outline--gradient me-3">Sign In</a>
-                         <a href="account/register.html" class="btn btn-sm py-2 custom--bg text-white">Sign Up</a>
+                         <a href="{{route('register')}}" class="btn btn-sm py-2 custom--bg text-white">Sign Up</a>
 
                      </div>
                  </div>
@@ -150,10 +150,10 @@
           <p class="text-white mt-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
             Fargo Remit Bank is a safe, fast, easy, and efficient e-Banking system that enables you access to your bank account and to carry out online banking services, 24/7
           </p>
-          <a href="account/login.html" class="btn custom--bg text-white mt-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
+          <a href="{{route('login')}}" class="btn custom--bg text-white mt-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
             Login</a>
           </a>
-          <a href="account/register.html" class="btn custom--bg text-white mt-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
+          <a href="{{route('register')}}" class="btn custom--bg text-white mt-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
             Create an Account</a>
           </a>
         </div>
@@ -325,7 +325,7 @@
           <div class="section-header">
             <div class="section-top-title border-left custom--cl">Why Choose Us?</div>
             <h2 class="section-title text-white">We are giving you the best services</h2>
-            <a href="account/register.html" class="btn mt-4 custom--bg text-white">Get Started</a>
+            <a href="{{route('register')}}" class="btn mt-4 custom--bg text-white">Get Started</a>
           </div>
         </div>
         <div class="col-xl-9">
@@ -452,7 +452,7 @@
                 </ul>
               </div>
               <div class="plan-card__footer text-center">
-                <a href="account/login.html" class="btn btn-md w-100 btn--base">Apply Now</a>
+                <a href="{{route('login')}}" class="btn btn-md w-100 btn--base">Apply Now</a>
               </div>
             </div><!-- plan-card end -->
           </div>
@@ -492,7 +492,7 @@
                 </ul>
               </div>
               <div class="plan-card__footer text-center">
-                <a href="account/login.html" class="btn btn-md w-100 btn--base">Apply Now</a>
+                <a href="{{route('login')}}" class="btn btn-md w-100 btn--base">Apply Now</a>
               </div>
             </div><!-- plan-card end -->
           </div>
@@ -532,13 +532,13 @@
                 </ul>
               </div>
               <div class="plan-card__footer text-center">
-                <a href="account/login.html" class="btn btn-md w-100 btn--base">Apply Now</a>
+                <a href="{{route('login')}}" class="btn btn-md w-100 btn--base">Apply Now</a>
               </div>
             </div><!-- plan-card end -->
           </div>
 
           <div class="col-12 d-flex justify-content-center">
-            <a href="account/login.html" class="btn btn--base">View More</a>
+            <a href="{{route('login')}}" class="btn btn--base">View More</a>
           </div>
         </div>
 
@@ -608,7 +608,7 @@
                 </ul>
               </div>
               <div class="plan-card__footer text-center">
-                <a href="account/login.html" class="btn btn-md w-100 btn--base">Apply Now</a>
+                <a href="{{route('login')}}" class="btn btn-md w-100 btn--base">Apply Now</a>
               </div>
             </div><!-- plan-card end -->
           </div>
@@ -660,7 +660,7 @@
                 </ul>
               </div>
               <div class="plan-card__footer text-center">
-                <a href="account/login.html" class="btn btn-md w-100 btn--base">Apply Now</a>
+                <a href="{{route('login')}}" class="btn btn-md w-100 btn--base">Apply Now</a>
               </div>
             </div><!-- plan-card end -->
           </div>
@@ -712,13 +712,13 @@
                 </ul>
               </div>
               <div class="plan-card__footer text-center">
-                <a href="account/login.html" class="btn btn-md w-100 btn--base">Apply Now</a>
+                <a href="{{route('login')}}" class="btn btn-md w-100 btn--base">Apply Now</a>
               </div>
             </div><!-- plan-card end -->
           </div>
 
           <div class="col-12 d-flex justify-content-center">
-            <a href="account/login.html" class="btn btn--base">View More</a>
+            <a href="{{route('login')}}" class="btn btn--base">View More</a>
           </div>
         </div>
       </div>
@@ -784,7 +784,7 @@
               </ul>
             </div>
             <div class="plan-card__footer text-center">
-              <a href="account/login.html" class="btn btn-md w-100 btn--base">Apply Now</a>
+              <a href="{{route('login')}}" class="btn btn-md w-100 btn--base">Apply Now</a>
             </div>
           </div><!-- plan-card end -->
         </div>
@@ -835,7 +835,7 @@
               </ul>
             </div>
             <div class="plan-card__footer text-center">
-              <a href="account/login.html" class="btn btn-md w-100 btn--base">Apply Now</a>
+              <a href="{{route('login')}}" class="btn btn-md w-100 btn--base">Apply Now</a>
             </div>
           </div><!-- plan-card end -->
         </div>
@@ -886,13 +886,13 @@
               </ul>
             </div>
             <div class="plan-card__footer text-center">
-              <a href="account/login.html" class="btn btn-md w-100 btn--base">Apply Now</a>
+              <a href="{{route('login')}}" class="btn btn-md w-100 btn--base">Apply Now</a>
             </div>
           </div><!-- plan-card end -->
         </div>
 
         <div class="col-12 d-flex justify-content-center">
-          <a href="account/login.html" class="btn btn--base">View More</a>
+          <a href="{{route('login')}}" class="btn btn--base">View More</a>
         </div>
       </div>
     </div>
@@ -1232,8 +1232,8 @@
                  <div class="footer-widget">
                      <h3 class="footer-widget__title">Quick Links</h3>
                      <ul class="short-link-list">
-                         <li><a href="account/login.html">Login</a></li>
-                         <li><a href="account/register.html">Register</a></li>
+                         <li><a href="{{route('login')}}">Login</a></li>
+                         <li><a href="{{route('register')}}">Register</a></li>
                          <li><a href="contact.html">Contact</a></li>
                      </ul>
                  </div>
