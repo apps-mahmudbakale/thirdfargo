@@ -20,7 +20,7 @@ class LoginController extends Controller
 
         if (Auth::attempt($credentials)) {
             // Authentication passed, redirect to intended page or home
-            return redirect()->intended('dashboard');
+            return redirect()->intended('home');
         }
 
         // Authentication failed, redirect back to the login page with an error
