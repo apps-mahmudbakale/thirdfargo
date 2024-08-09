@@ -19,6 +19,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('test', function () {
+    return $users = \App\User::all();
+});
+
+Route::get('/test/{id}', function () {
+    return $users = \App\User::all();
+});
+
 Route::get('/transactions', function () {
     return view('transactions');
 })->name('transactions');
