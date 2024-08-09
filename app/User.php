@@ -30,7 +30,8 @@ class User extends Authenticatable
         'currency',
         'pin',
         'account_type',
-        'password'
+        'password',
+        'balance'
     ];
 
     /**
